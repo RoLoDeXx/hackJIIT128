@@ -37,7 +37,7 @@ body {
   color: #c5c5c5;
 }
 
-textbox {
+textarea {
   width: 100%;
   height: 10rem;
   border-radius: 2px;
@@ -47,4 +47,20 @@ textbox {
 .container .tip {
   font-family: "Segoe Print";
   color: #575656;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.arrow {
+  margin-left: 8rem;
+  height: 20rem;
+}
+
+.fas {
+  position: fixed;
+  font-size: 3rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
 }
