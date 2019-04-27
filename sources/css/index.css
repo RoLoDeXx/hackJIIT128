@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SEGOEUI.TTF");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.container {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.container p {
+  font-family: "Segoe UI";
+  margin-top: 15rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.activate {
+  font-size: 1.25rem;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 2.5rem;
+  margin-bottom: 1rem;
+  background: #6ee796;
+  color: white;
+  font-weight: 500;
+}
+
+.emergency {
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #efefef;
+  color: #585858;
+}
