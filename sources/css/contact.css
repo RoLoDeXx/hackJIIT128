@@ -8,19 +8,20 @@
   src: url("../fonts/segoepr.ttf");
 }
 
+@import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 header {
   font-family: "Segoe UI";
   font-size: 1.75rem;
   text-align: center;
-  background: #383737;
 }
 
 header > p {
   margin: 0;
   padding: 1rem;
-  color: white;
+  color: #f07064;
+  font-weight: 600;
 }
 
 body {
@@ -34,14 +35,20 @@ body {
 .label-text {
   font-family: "Roboto";
   font-size: 1.5rem;
-  color: #c5c5c5;
+  text-align: center;
+  color: #3d3d3d;
+  font-weight: 600;
 }
 
 textarea {
-  width: 100%;
+  width: 98%;
   height: 10rem;
   border-radius: 2px;
   resize: none;
+  border: 1px solid #f07064;
+  font-family: "Lato";
+  font-size: 1.35rem;
+  color: #4e4e4e;
 }
 
 .container .tip {
@@ -58,9 +65,35 @@ textarea {
   height: 20rem;
 }
 
-.fas {
+
+
+.addNew {
   position: fixed;
-  font-size: 3rem;
   bottom: 1.5rem;
   right: 1.5rem;
+  color: #f07064;
+  font-size: 3rem;`
+}
+
+
+hr {
+  width: 50%;
+  border: 2px solid #f07064;
+}
+
+.contact-name {
+  background: #f07064;
+  padding: 0.5rem;
+  border-radius: 2px;
+  margin-top: 1.5rem;
+  font-family: 'Segoe UI';
+  color: white;
+  font-size: 1.45rem;
+  font-weight:100;
+}
+
+span
+{
+    position: absolute;
+    right:3rem;
 }
