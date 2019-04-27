@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SEGOEUI.TTF");
+}
+
+@font-face {
+  font-family: "Segoe Print";
+  src: url("../fonts/segoepr.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+header {
+  font-family: "Segoe UI";
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+header > p {
+  margin: 0;
+  padding: 1rem;
+  color: #f07064;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1.75rem 3rem;
+}
+
+.addNew {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: #f07064;
+  font-size: 3rem;
+}
+
+.container p {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 50%;
+  border: 2px solid #f07064;
+}
+
+input[type="text"] {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 1px solid #f07064;
+  padding: 0.5rem 0;
+}
+
+.send {
+  font-size: 1.25rem;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 1.75rem;
+  background: #69ce87;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  bottom: 1.25rem;
+  right: 5rem;
+}

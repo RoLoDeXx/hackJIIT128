@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="./sources/css/contact.css" />
+    <link rel="stylesheet" href="./sources/css/form.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,17 +17,24 @@
     <p>Emergency Contacts</p>
     <hr />
   </header>
+
   <body>
     <div class="container">
       <form action="">
-        <label>
-          <p class="label-text">Message</p>
-          <textarea name="">
-Hey. I'm trapped at this place, save me!
-          </textarea>
-        </label>
+        <p>
+          Name
+        </p>
+        <input type="text" name="name" placeholder="John Doe" />
+        <p>
+          Phone no
+        </p>
 
-        <i class="addNew fas fa-plus-circle"></i>
+        <input type="text" name="phone" placeholder=" +1 2345 56787 " />
+
+        <span>
+          <input class="send" type="submit" value="Submit" />
+          <i class="addNew fas fa-plus-circle fa-rotate-90"></i>
+        </span>
       </form>
     </div>
   </body>

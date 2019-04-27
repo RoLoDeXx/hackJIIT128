@@ -9,12 +9,13 @@
   font-family: "Roboto";
 }
 
-.container p {
+.title {
+  margin-bottom: 0;
   font-family: "Segoe UI";
-  margin-top: 15rem;
+  margin-top: 12rem;
   font-size: 5rem;
   text-transform: uppercase;
-  color: #707070;
+  color: #ffffff;
 }
 
 .activate {
@@ -23,7 +24,18 @@
   border: none;
   padding: 1rem 2.5rem;
   margin-bottom: 1rem;
-  background: #6ee796;
+  background: #69ce87;
+  color: white;
+  font-weight: 500;
+}
+
+.deactivate {
+  font-size: 1.25rem;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background: #696969;
   color: white;
   font-weight: 500;
 }
@@ -36,4 +48,18 @@
   margin-bottom: 1rem;
   background: #efefef;
   color: #585858;
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tagline {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 5rem;
 }
